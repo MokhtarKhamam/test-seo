@@ -32,9 +32,12 @@ const AntdConfigProvider = ({ children }: Props) => {
     algorithm: mode === ThemeMode.Dark ? theme.darkAlgorithm : undefined,
   };
 
-  // Prevent rendering until mode is determined dfg
+  // Prevent rendering until mode is determineddfd
   if (mode === null) {
     return null; // Or a loading spinner
+    //dfb;lmdf;
+    //first commit
+    //second commitgit 
   }
 
   return (
